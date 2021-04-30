@@ -1,0 +1,35 @@
+{
+  "name": "orm-liteplus",
+  "version": "1.0.0",
+  "description": "orm for sqlite in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorratts13/orm-liteplus.git"
+  },
+  "keywords": [
+    "lite",
+    "sqlite",
+    "sqlite3",
+    "database",
+    "migrations",
+    "mysql",
+    "node",
+    "nodejs",
+    "nextjs",
+    "react-database",
+    "mysql-react"
+  ],
+  "author": "ratts13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorratts13/orm-liteplus/issues"
+  },
+  "homepage": "https://github.com/victorratts13/orm-liteplus#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.2"
+  }
+}
