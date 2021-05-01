@@ -1,5 +1,5 @@
 # orm-liteplus
-![version](https://img.shields.io/badge/version-1.0-brightgreen) ![env](https://img.shields.io/badge/env-nodejs-yellow)
+![version](https://img.shields.io/badge/version-1.0.1-brightgreen) ![env](https://img.shields.io/badge/env-nodejs-yellow)
 
 orm for sqlite3 in node.js
 
@@ -17,7 +17,7 @@ first install orm into your project with npm
 then, import the library into your project.
 
 ```js
-const orm = require('orm-liteplus')
+const orm = require('orm-liteplus').sql; // for use without close data, use 'continuous' param
 var db = new orm('./test.db'); //you can use :memory: too
 ```
 
