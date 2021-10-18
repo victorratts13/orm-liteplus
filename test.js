@@ -1,6 +1,6 @@
-const sql = require(".").sql;
+// const sql = require(".").sql;
 
-var db = new sql('./test.db');
+// var db = new sql('./test.db');
 
  /* db.create([
     {
@@ -65,15 +65,15 @@ var db = new sql('./test.db');
     console.log(e)
 }) */
 
-db.delete([
-    {
-        "table": "test",
-        "where": "WHERE id = 1",
-        "set": [
-            {
-                "name": "joao",
-                "email": "joao123@gmail.com"
-            }
-        ]
-    }
-])
+// db.delete([
+//     {
+//         "table": "test",
+//         "where": "WHERE id = 1",
+//         "set": [
+//             {
+//                 "name": "joao",
+//                 "email": "joao123@gmail.com"
+//             }
+//         ]
+//     }
+// ])
