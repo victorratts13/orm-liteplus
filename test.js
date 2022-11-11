@@ -1,8 +1,8 @@
-// const sql = require(".").sql;
+const sql = require("./index.js").sql;
 
-// var db = new sql('./test.db');
+var db = new sql('./test.db');
 
- /* db.create([
+ db.create([
     {
         type: 'table',
         name: 'test',
@@ -28,7 +28,7 @@
     console.log(rest)
 }).catch(e => {
     console.log(e)
-}) */
+}) 
 
 /* db.insert([
     {
